@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.reservation h1, .temoignages h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    background-color: #D9534F;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #C9302C;
+}
+
+.temoignages p.text-danger {
+    font-weight: bold;
+}
+.maps{
+    background-image: url('./img/maps.PNG');
+    background-size: cover; /* Pour couvrir toute la zone */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Pas de répétition */
+    height: 50vh;
+    width: 100%; /* Hauteur de l'écran entier */
+    color: rgb(139, 108, 108); /* Texte blanc pour le contraste */
+}
