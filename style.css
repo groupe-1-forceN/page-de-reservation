@@ -29,12 +29,30 @@ body {
 .temoignages p.text-danger {
     font-weight: bold;
 }
-.maps{
+.background-image {
     background-image: url('./img/maps.PNG');
-    background-size: cover; /* Pour couvrir toute la zone */
-    background-position: center; /* Centrer l'image */
-    background-repeat: no-repeat; /* Pas de répétition */
-    height: 50vh;
-    width: 100%; /* Hauteur de l'écran entier */
-    color: rgb(139, 108, 108); /* Texte blanc pour le contraste */
+    background-size: cover; /* Ajuste l'image pour couvrir tout l'élément */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    width: 100%;
+    height: auto; /* Ajuste la hauteur automatiquement */
+    min-height: 61vh; /* Assure une hauteur minimale de la fenêtre */
+}
+
+.reservation {
+    position: relative;
+    z-index: 1; /* Assure que le contenu de la réservation est au-dessus de l'image de fond */
+}
+
+.background-image {
+    position: absolute;
+    top: 398px;
+    left: 0;
+    z-index: -1; /* Place l'image de fond derrière le contenu */
+}
+.temoignages {
+    width: 100%; /* Décalage de 150px depuis le haut */
+}
+input.form-control, select.form-select {
+    border-radius: 40px; /* Ajustez la valeur selon vos besoins */
 }
